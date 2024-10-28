@@ -21,13 +21,11 @@ int main() {
     int a, b, razlika;
     cin >> a >> b;
     razlika = a - b;
-    cout << "Vrednosta na broj1 i broj2 pred zamena na broevite e: " << a << "," << b << " a razlikata: " << razlika
-         << endl;
+    cout << "Vrednosta na broj1 i broj2 pred zamena na broevite e: " << a << "," << b << " a razlikata: " << razlika << endl;
     int temp = a;
     a = b;
     b = temp;
     razlika = a - b;
-    cout << "Vrednosta na broj1 i broj2 posle zamena na broevite e: " << a << "," << b << " a razlikata: " << razlika
-         << endl;
+    cout << "Vrednosta na broj1 i broj2 posle zamena na broevite e: " << a << "," << b << " a razlikata: " << razlika << endl;
     return 0;
 }
